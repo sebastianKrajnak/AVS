@@ -1,0 +1,16 @@
+-r
+/home/training/dd-21-22-89/Assignment/build_advisor/Advisor-line/e000/trc000
+-quiet
+-cs-file
+/home/training/dd-21-22-89/Assignment/build_advisor/Advisor-line/e000/callstacks.def
+--cs-mode=no-count-loops,no-count-flops,stl-profiling,stack-stitching
+--count-flops
+--benchmarks=dram,mcdram,cpu_cache,flop_peak,int
+--jit-profiling
+--gpu-collect-traffic
+--
+./mandelbrot
+-c
+line
+-s
+4000

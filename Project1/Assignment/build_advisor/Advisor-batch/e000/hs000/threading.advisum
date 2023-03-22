@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc"
+           line_no="44"
+           routine="BatchMandelCalculator::calculateMandelbrot"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.310000E+00"
+           trip_counts="500"
+           func_instance="10"
+           priority="0"/>
+  <hotspot filename="/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc"
+           line_no="46"
+           routine="BatchMandelCalculator::calculateMandelbrot"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.310000E+00"
+           trip_counts="16"
+           func_instance="9"
+           priority="0"/>
+  <hotspot filename="/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc"
+           line_no="48"
+           routine="BatchMandelCalculator::calculateMandelbrot"
+           is_vectorized="1"
+           self_time="2.999742E-02"
+           total_time="3.239143E+00"
+           trip_counts="100"
+           func_instance="8"
+           confidence="1"
+           efficiency="1.976468E+01"
+           referenceEfficiency="1.562500E+00"
+           priority="0"/>
+  <hotspot filename="/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc"
+           line_no="60"
+           routine="BatchMandelCalculator::calculateMandelbrot"
+           is_vectorized="2"
+           self_time="3.209145E+00"
+           total_time="3.209145E+00"
+           trip_counts="187"
+           func_instance="6"
+           priority="0"/>
+  <hotspot filename="/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc"
+           line_no="51"
+           routine="BatchMandelCalculator::calculateMandelbrot"
+           is_vectorized="1"
+           self_time="7.085719E-02"
+           total_time="7.085719E-02"
+           trip_counts="750"
+           func_instance="14"
+           confidence="1"
+           efficiency="9.753040E+01"
+           referenceEfficiency="1.250000E+01"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

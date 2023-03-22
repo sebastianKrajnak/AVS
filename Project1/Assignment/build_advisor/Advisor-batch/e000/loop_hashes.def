@@ -1,0 +1,8 @@
+# hash file version: 3
+1	6	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	25659	26329	/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc	60	670	d59dd689b29f0bd0f3535209b0fee8c3	0	1	0	0	0
+2	8	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	25433	27498	/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc	48	1952	d59dd689b29f0bd0f3535209b0fee8c3	1	1	0	0	0
+3	9	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	24739	27401	/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc	46	2710	d59dd689b29f0bd0f3535209b0fee8c3	0	1	0	0	0
+4	10	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	24701	27451	/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc	44	2798	d59dd689b29f0bd0f3535209b0fee8c3	0	1	0	0	0
+5	11	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	24878	25053	/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc	51	175	d59dd689b29f0bd0f3535209b0fee8c3	1	2	0	0	0
+6	12	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	25200		/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc	51	105	d59dd689b29f0bd0f3535209b0fee8c3	1	1	0	0	0
+7	14	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	24878	25053,25305	/home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc	51	280	d59dd689b29f0bd0f3535209b0fee8c3	1	1	0	0	0

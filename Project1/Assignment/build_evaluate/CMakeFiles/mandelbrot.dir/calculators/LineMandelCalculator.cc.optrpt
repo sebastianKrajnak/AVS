@@ -1,0 +1,50 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+Begin optimization report for: LineMandelCalculator::calculateMandelbrot(LineMandelCalculator *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc(41,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc(43,3)
+   <Peeled loop for vectorization, Multiversioned v1>
+      remark #15301: PEEL LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc(43,3)
+   <Multiversioned v1>
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc(43,3)
+   <Remainder loop for vectorization, Multiversioned v1>
+      remark #15301: REMAINDER LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc(43,3)
+   <Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc(43,3)
+   <Remainder, Multiversioned v2>
+   LOOP END
+
+   LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc(48,3)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc(51,4)
+         remark #15301: SIMD LOOP WAS VECTORIZED
+      LOOP END
+
+      LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc(51,4)
+      <Remainder loop for vectorization>
+         remark #15301: REMAINDER LOOP WAS VECTORIZED
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

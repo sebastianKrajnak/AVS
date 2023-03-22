@@ -1,0 +1,40 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+Begin optimization report for: BatchMandelCalculator::calculateMandelbrot(BatchMandelCalculator *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc(44,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc(46,3)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc(51,4)
+         remark #15301: SIMD LOOP WAS VECTORIZED
+      LOOP END
+
+      LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc(51,4)
+      <Remainder loop for vectorization>
+         remark #15301: REMAINDER LOOP WAS VECTORIZED
+      LOOP END
+
+      LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc(57,4)
+         remark #25460: No loop optimizations reported
+
+         LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc(60,5)
+            remark #15301: SIMD LOOP WAS VECTORIZED
+         LOOP END
+
+         LOOP BEGIN at /home/training/dd-21-22-89/Assignment/calculators/BatchMandelCalculator.cc(60,5)
+         <Remainder loop for vectorization>
+            remark #15301: REMAINDER LOOP WAS VECTORIZED
+         LOOP END
+      LOOP END
+   LOOP END
+LOOP END
+===========================================================================

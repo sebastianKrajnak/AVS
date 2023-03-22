@@ -1,0 +1,106 @@
+# callstacks file version: 7
+#    rowid	    parent	       rva	 loop	 system	                                function	binary	instance_start_rva	instance_size	instance_end_rva	finst_rowid	roi	is_inlined	jit_method_id	tripcounts_roi	flops_roi	cachesim_roi	data_transfer_roi
+         1	        -1	     22240	    0	      0	                                  _start	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	22240	48	0	3	0	0	0	0	0	0	0
+         2	        -1	     22280	    0	      0	                                  _start	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	22240	48	0	3	0	0	0	0	0	0	0
+         3	        30	    140628	    1	      1	     [Loop@0x22499 in __libc_start_main]	/lib64/libc.so.6	140441	391	0	1	0	0	0	0	0	0	0
+         4	        32	    248509	    0	      0	evaluateCalculator<LineMandelCalculator>	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	248444	1023	0	4	0	1	0	0	0	0	0
+         5	        37	     29709	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+         6	        37	     29678	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+         7	        37	     29690	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+         8	        37	     29653	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+         9	        37	     29635	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        10	        37	     29716	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        11	        37	     29570	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        12	        37	     29614	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        13	        37	     29595	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        14	        37	     29703	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        15	        37	     29696	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        16	        37	     29608	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        17	        51	     28919	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+        18	        37	     29628	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        19	        37	     29588	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        20	        37	     29563	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        21	        37	     29622	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        22	        37	     29672	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        23	        37	     29647	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        24	        68	     29732	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        25	        37	     29684	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        26	        37	     29582	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        27	        37	     29659	    1	      0	[Loop at line 51 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	173	29729	6	0	0	0	0	0	0	0
+        28	        82	     29014	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+        29	        93	     28935	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+        30	         2	    140441	    0	      1	                       __libc_start_main	/lib64/libc.so.6	140384	448	0	2	0	0	0	0	0	0	0
+        31	         2	    140628	    0	      1	                       __libc_start_main	/lib64/libc.so.6	140384	448	0	2	0	0	0	0	0	0	0
+        32	         3	    248444	    0	      0	                                    main	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	239280	17968	0	5	0	0	0	0	0	0	0
+        33	         3	    248509	    0	      0	                                    main	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	239280	17968	0	5	0	0	0	0	0	0	0
+        34	         4	     28558	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        35	        34	     29447	    1	      0	[Loop at line 41 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28558	1457	30000	9	0	0	0	0	0	0	0
+        36	        35	     29556	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	938	28835,29056,29233,29359,29987	14	0	0	0	0	0	0	0
+        37	        36	     29556	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        38	         4	     29709	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        39	         4	     29678	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        40	         4	     29690	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        41	         4	     29653	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        42	         4	     29635	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        43	         4	     29716	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        44	         4	     29570	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        45	         4	     29614	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        46	         4	     29595	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        47	         4	     29703	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        48	         4	     29696	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        49	         4	     29608	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        50	        34	     28908	    1	      0	[Loop at line 41 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28558	1457	30000	9	0	0	0	0	0	0	0
+        51	        50	     28919	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	938	28835,29056,29233,29359,29987	14	0	0	0	0	0	0	0
+        52	         4	     28919	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        53	        51	     28919	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+        54	        51	     29732	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        55	        51	     29556	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        56	        51	     28753	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28752	83	0	11	0	0	0	0	0	0	0
+        57	        51	     28909	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+        58	        51	     29153	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29152	81	0	12	0	0	0	0	0	0	0
+        59	        51	     29281	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29280	79	0	13	0	0	0	0	0	0	0
+        60	        51	     29448	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        61	        51	     29741	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        62	         4	     29628	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        63	         4	     29588	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        64	         4	     29563	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        65	         4	     29622	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        66	         4	     29672	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        67	         4	     29647	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        68	        35	     29732	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	938	28835,29056,29233,29359,29987	14	0	0	0	0	0	0	0
+        69	         4	     29732	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        70	        68	     28919	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+        71	        68	     29732	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        72	        68	     29556	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        73	        68	     28753	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28752	83	0	11	0	0	0	0	0	0	0
+        74	        68	     28909	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+        75	        68	     29153	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29152	81	0	12	0	0	0	0	0	0	0
+        76	        68	     29281	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29280	79	0	13	0	0	0	0	0	0	0
+        77	        68	     29448	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        78	        68	     29741	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        79	         4	     29684	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        80	         4	     29582	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        81	         4	     29659	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        82	        50	     29014	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	938	28835,29056,29233,29359,29987	14	0	0	0	0	0	0	0
+        83	         4	     29014	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        84	        82	     28919	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+        85	        82	     29732	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        86	        82	     29556	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        87	        82	     28753	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28752	83	0	11	0	0	0	0	0	0	0
+        88	        82	     28909	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+        89	        82	     29153	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29152	81	0	12	0	0	0	0	0	0	0
+        90	        82	     29281	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29280	79	0	13	0	0	0	0	0	0	0
+        91	        82	     29448	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        92	        82	     29741	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        93	        50	     28935	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	938	28835,29056,29233,29359,29987	14	0	0	0	0	0	0	0
+        94	         4	     28935	    0	      0	LineMandelCalculator::calculateMandelbrot	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28400	1664	0	7	0	0	0	0	0	0	0
+        95	        93	     28919	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+        96	        93	     29732	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        97	        93	     29556	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+        98	        93	     28753	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28752	83	0	11	0	0	0	0	0	0	0
+        99	        93	     28909	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	148	29056	10	0	0	0	0	0	0	0
+       100	        93	     29153	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29152	81	0	12	0	0	0	0	0	0	0
+       101	        93	     29281	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29280	79	0	13	0	0	0	0	0	0	0
+       102	        93	     29448	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+       103	        93	     29741	    1	      0	[Loop at line 43 in LineMandelCalculator::calculateMandelbrot]	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	547	29987	8	0	0	0	0	0	0	0
+       104	        -1	         0	    0	      0	                [Unknown stack frame(s)]	n/a	0	1	0	16	0	0	0	0	0	0	0

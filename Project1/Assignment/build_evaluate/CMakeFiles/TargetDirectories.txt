@@ -1,0 +1,3 @@
+/home/training/dd-21-22-89/Assignment/build_evaluate/CMakeFiles/rebuild_cache.dir
+/home/training/dd-21-22-89/Assignment/build_evaluate/CMakeFiles/edit_cache.dir
+/home/training/dd-21-22-89/Assignment/build_evaluate/CMakeFiles/mandelbrot.dir

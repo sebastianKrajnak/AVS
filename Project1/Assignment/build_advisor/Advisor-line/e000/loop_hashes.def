@@ -1,0 +1,9 @@
+# hash file version: 3
+1	6	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29556	29729	/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc	51	173	d59dd689b29f0bd0f3535209b0fee8c3	1	1	0	0	0
+2	8	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29447	29987	/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc	43	547	d59dd689b29f0bd0f3535209b0fee8c3	0	1	0	0	0
+3	9	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28558	30000	/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc	41	1457	d59dd689b29f0bd0f3535209b0fee8c3	0	1	0	0	0
+4	10	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28908	29056	/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc	43	148	d59dd689b29f0bd0f3535209b0fee8c3	1	2	0	0	0
+5	11	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28752		/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc	43	83	d59dd689b29f0bd0f3535209b0fee8c3	1	1	0	0	0
+6	12	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29152		/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc	43	81	d59dd689b29f0bd0f3535209b0fee8c3	1	1	0	0	0
+7	13	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	29280		/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc	43	79	d59dd689b29f0bd0f3535209b0fee8c3	0	2	0	0	0
+8	14	/home/training/dd-21-22-89/Assignment/build_advisor/mandelbrot	28752	28835,29056,29233,29359,29987	/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc	43	938	d59dd689b29f0bd0f3535209b0fee8c3	1	1	0	0	0

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE IntelParallelAdvisorSummaryCollection SYSTEM  "IntelParallelAdvisorSummaryCollection.dtd"> -->
+
+<IntelParallelAdvisorSummary version="" 
+                             kind="DATAKIND_SURVEY_EX" >
+  <hotspot filename="/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc"
+           line_no="41"
+           routine="LineMandelCalculator::calculateMandelbrot"
+           is_vectorized="0"
+           self_time="0.000000E+00"
+           total_time="3.030000E+00"
+           trip_counts="8000"
+           func_instance="9"
+           priority="0"/>
+  <hotspot filename="/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc"
+           line_no="43"
+           routine="LineMandelCalculator::calculateMandelbrot"
+           is_vectorized="1"
+           self_time="4.002524E-02"
+           total_time="3.030000E+00"
+           trip_counts="100; 750"
+           func_instance="14"
+           confidence="1"
+           efficiency="8.239051E+01"
+           referenceEfficiency="1.250000E+01"
+           priority="0"/>
+  <hotspot filename="/home/training/dd-21-22-89/Assignment/calculators/LineMandelCalculator.cc"
+           line_no="51"
+           routine="LineMandelCalculator::calculateMandelbrot"
+           is_vectorized="1"
+           self_time="2.989975E+00"
+           total_time="2.989975E+00"
+           trip_counts="750"
+           func_instance="6"
+           confidence="1"
+           efficiency="1.718373E+02"
+           referenceEfficiency="6.250000E+00"
+           priority="0"/>
+</IntelParallelAdvisorSummary >

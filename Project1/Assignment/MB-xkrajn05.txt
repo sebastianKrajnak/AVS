@@ -1,0 +1,30 @@
+#### Stručně odpovězte na následující otázky: ######
+
+1. Proč je nutné určovat, zda má výpočet pokračovat?
+==============================================================================
+Pretože ináč by výpočet pokračoval až do hondoty limitu aj keď by to už bolo zbytočné, teda podmienka z(r)^2 + z(i)^2 > 4 bolo splnená a číslo iterácie zapísané do poľa pdata.
+V takom prípade zbytočne stúpa čas výpočtu a klesá efektivita.
+
+2. Byla "Line" vektorizace efektivní? Proč?
+==============================================================================
+V "najhoršom" prípade bola Line vektoriziácia efektívna aspoň 2x oproti referenčnej, vo finálnom prípade vektorizácia zefektívnela celý program 17x, 
+teda áno bola efektívna. Rýchlosť výpočtu Mandelbrotovej množiny sa znížila o polovicu.
+Namiesto toho aby bola vykonaná jedna inštrukcia sa vykonáva viacej inštrukcií v tom istom čase.
+
+3. Jaká byla dosažena výkonnost v Intel Advisoru pro jednotlivé implementace 
+(v GFLOPS)?
+==============================================================================
+Ref: 2.24
+Line: 31.57
+Batch: 34.77
+
+4. Jaká část kódu byla vektorizována v "Line" implementaci? Vyčteme tuto 
+informaci i u batch kalkulátoru?
+==============================================================================
+Najvnútornejšia slučka, v ktorej prebiehali výpočty jednotlivých pixelov v rámci iterácie jedného riadku. Áno túto časť kódu vyčítame aj v bactch kalkulátore,
+keďže slučka, ktorý vektorizujeme sa nachádza na rovnakej (najhlbšej) pozícii.
+
+5. Co vyčteme z Roofline modelu pro obě vektorizované implementace?
+==============================================================================
+Rýchlosť a výkonnosť výpočtu sa blížia k limitu bandwith-u L2 cache a zároveň sú limitované compute roof-mi, hlavne sčítaním vektorov.
+
